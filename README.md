@@ -14,3 +14,13 @@ $ npm install
 ```bash
 $ npm run start:dev
 ```
+
+
+## ENVS
+
+```env
+# Clave JWT
+SECRET=clave
+
+# URL PostgreSQL
+DATABASE_URL=postgresql://usuario:password@localhost:5432/nombre_basedatos
